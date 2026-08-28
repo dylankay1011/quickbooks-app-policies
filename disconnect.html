@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disconnect — Kay Supply BisTrack Sync</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem;
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #1a1a1a; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #141414; } }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.25rem; }
+  .sub { color: #666; font-size: .95rem; margin-top: 0; }
+  @media (prefers-color-scheme: dark) { .sub { color: #999; } }
+  .note {
+    border-left: 3px solid #999; padding: .6rem 0 .6rem 1rem; margin: 1.5rem 0;
+    background: rgba(128,128,128,.08);
+  }
+  ol { padding-left: 1.25rem; } li { margin: .4rem 0; }
+  a { color: #0b6bcb; } @media (prefers-color-scheme: dark) { a { color: #6db3f2; } }
+  footer { margin-top: 3rem; font-size: .9rem; color: #666; }
+  @media (prefers-color-scheme: dark) { footer { color: #999; } }
+</style>
+</head>
+<body>
+
+<h1>Disconnecting</h1>
+<p class="sub">Kay Supply BisTrack Sync · Kay Supply, Inc.</p>
+
+<p>
+  The connection between this application and QuickBooks Online can be revoked at any time from
+  within QuickBooks Online itself. No request to us is required, and revocation takes effect
+  immediately.
+</p>
+
+<h2>How to disconnect</h2>
+<ol>
+  <li>Sign in to QuickBooks Online as an administrator of the company</li>
+  <li>Open <strong>Settings</strong> (the gear icon), then <strong>Apps</strong></li>
+  <li>Find <strong>Kay Supply BisTrack Sync</strong> in the connected apps list</li>
+  <li>Choose <strong>Disconnect</strong> and confirm</li>
+</ol>
+
+<h2>What happens then</h2>
+<ul>
+  <li>The application's access token is revoked immediately and it can no longer read or write anything in QuickBooks Online</li>
+  <li>Accounting records already posted remain in QuickBooks, unchanged — disconnecting does not delete or reverse any transaction</li>
+  <li>The application stops posting; source exports continue to accumulate but are not recorded until it is reconnected</li>
+  <li>Stored credentials on our side become invalid and are removed</li>
+</ul>
+
+<div class="note">
+  Disconnecting is safe and reversible. See <a href="connect.html">Connecting or reconnecting</a>
+  to restore it.
+</div>
+
+<h2>Questions</h2>
+<p>
+  Contact <strong>dkay@kaysupply.com</strong>.
+</p>
+
+<footer>
+  <a href="./">Overview</a> ·
+  <a href="privacy-policy.html">Privacy Policy</a> ·
+  <a href="eula.html">End-User License Agreement</a> ·
+  <a href="connect.html">Connecting</a>
+</footer>
+
+</body>
+</html>

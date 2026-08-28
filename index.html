@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kay Supply BisTrack Sync</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem;
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #1a1a1a; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #141414; } }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.25rem; }
+  .sub { color: #666; font-size: .95rem; margin-top: 0; }
+  @media (prefers-color-scheme: dark) { .sub { color: #999; } }
+  .note {
+    border-left: 3px solid #999; padding: .6rem 0 .6rem 1rem; margin: 1.5rem 0;
+    background: rgba(128,128,128,.08);
+  }
+  ul { padding-left: 1.25rem; } li { margin: .35rem 0; }
+  a { color: #0b6bcb; } @media (prefers-color-scheme: dark) { a { color: #6db3f2; } }
+  footer { margin-top: 3rem; font-size: .9rem; color: #666; }
+  @media (prefers-color-scheme: dark) { footer { color: #999; } }
+</style>
+</head>
+<body>
+
+<h1>Kay Supply BisTrack Sync</h1>
+<p class="sub">Internal accounting integration · Kay Supply, Inc.</p>
+
+<div class="note">
+  <strong>This is a private, internal application.</strong> It is not offered to the public and has
+  no sign-up. It is used only by authorised staff of Kay Supply, Inc., against Kay Supply's own
+  QuickBooks Online company file.
+</div>
+
+<h2>What it does</h2>
+<p>
+  Each business day, our BisTrack ERP system produces three transaction exports — general ledger
+  journals, accounts payable vouchers, and vendor credits. This application validates those exports
+  and records them in QuickBooks Online as journal entries, bills and vendor credits.
+</p>
+<p>
+  Every batch is checked before it is posted: journals must balance, vendors and accounts must
+  already exist in QuickBooks, and any transaction already recorded is detected and skipped. A
+  member of our finance staff reviews and approves each batch before anything is written, and the
+  result is verified afterwards against the source files.
+</p>
+
+<h2>Data handling</h2>
+<ul>
+  <li>Processes only Kay Supply's own business accounting data</li>
+  <li>No consumer or customer personal information is accessed</li>
+  <li>No data is shared with, sold to, or transmitted to any third party</li>
+  <li>Access uses Intuit OAuth 2.0; QuickBooks credentials are never stored</li>
+</ul>
+<p>See the <a href="privacy-policy.html">Privacy Policy</a> for full detail.</p>
+
+<h2>Managing the connection</h2>
+<p>
+  <a href="connect.html">Connecting or reconnecting</a> ·
+  <a href="disconnect.html">Disconnecting</a>
+</p>
+
+<footer>
+  Kay Supply, Inc. · 1005 W Snowflake Blvd, Snowflake, AZ · dkay@kaysupply.com<br>
+  <a href="privacy-policy.html">Privacy Policy</a> · <a href="eula.html">End-User License Agreement</a>
+</footer>
+
+</body>
+</html>
